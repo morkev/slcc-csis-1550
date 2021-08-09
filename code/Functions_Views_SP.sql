@@ -21,7 +21,9 @@ FROM products;
 -- Description: This query will produce a result set with 2 columns: 
 -- 1) A concatenated combination of the artist and album
 -- 2) The total sales (price) for each product. 
--- The query joins the orders, order_items and products tables. Lastly it groups by product id so that we can SUM all the orders of each product and sorts by the artist/title concatenation.
+-- The query joins the orders, order_items and products tables. 
+-- Lastly it groups by product id so that we can SUM all the orders 
+-- of each product and sorts by the artist/title concatenation.
 
 CREATE `total_sales`
     SELECT 
