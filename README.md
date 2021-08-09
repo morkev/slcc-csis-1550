@@ -1,7 +1,7 @@
 # SLCC-CSIS-1550
 CSIS 1550 - SQL Programming Coursework at SLCC.
 
-Databases are ubiquitous, that is, they are everywhere. There are databases in your smart phone. There are databases behind every social media platform (Facebook, Twitter, Snapchat, etc.). There are databases in nearly every modern computer game. There are databases used in nearly every business that exists today. And the list goes on and on where you will find databases.
+Databases are ubiquitous – i.e. they are everywhere. There are databases in your smart phone. There are databases behind every social media platform (Facebook, Twitter, Snapchat, etc.). There are databases in nearly every modern computer game. There are databases used in nearly every business that exists today. And the list goes on and on where you will find databases.
 
 <b>Below you will find my notes.</b>
 
@@ -24,6 +24,7 @@ Another way to view databases is by their classification.  There are many class
 
 ---
 ERDs
+
 One of the common ways to visualize these ideas is through Entity Relationship Diagrams (ERDs). ERDs are a standardized set of symbols used in the industry to design databases. In the early planning stages of databases we often use paper or a whiteboard to start our diagramming of our design. Then, once we have a preliminary design, we use diagramming software to formalize it.
 
 TERMINOLOGY
