@@ -9,9 +9,9 @@
  SELECT c.customer_id, c.first_name, c.last_name, c.city, c.state, c.email, o.order_id, o.order_date
      FROM customers c
      INNER JOIN orders o
-         ON o.customer_id = c.customer_id
-         WHERE state IN ('OH','PA')
-         ORDER BY state, last_name, first_name;
+     ON o.customer_id = c.customer_id
+ WHERE state IN ('OH','PA')
+ ORDER BY state, last_name, first_name;
         
 -- Query Challenge #2
  SELECT *, 
