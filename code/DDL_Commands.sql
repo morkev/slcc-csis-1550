@@ -8,7 +8,7 @@
 -- Query Challenge #1
 CREATE TABLE customer_reviews 
 (
-	review_id int NOT NULL AUTO_INCREMENT,
+    review_id int NOT NULL AUTO_INCREMENT,
     product_name varchar(45) DEFAULT NULL,
     product_rating int NOT NULL CHECK (product_rating between 1 and 5),
     reviewer_comment varchar(250) DEFAULT NULL,
