@@ -661,7 +661,7 @@ IN month_number int
 ```
 
 ##
-Create a STORED PROCEDURE
+Create a PROCEDURE
 ```
 CREATE PROCEDURE 'month_stats'
 (
@@ -699,4 +699,5 @@ So to call our month_stats stored procedure and pass it 3 for March (or any othe
 The command would look like this:
 CALL month_stats(3);
 ```
-  
+	
+	
