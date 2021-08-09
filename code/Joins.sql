@@ -15,12 +15,12 @@
         
 -- Query Challenge #2
  SELECT *, 
- 	(SELECT COUNT(order_status) 
-      FROM orders 
-      WHERE order_status = lookup_order_status.lkp_status_id) 
-      AS order_count
- 			FROM lookup_order_status
-            GROUP BY lkp_status_id;
+   (SELECT COUNT(order_status) 
+    FROM orders 
+    WHERE order_status = lookup_order_status.lkp_status_id) 
+    AS order_count
+ FROM lookup_order_status
+ GROUP BY lkp_status_id;
 
 -- Query Challenge #3
 -- order_status 14 stands for "Delivered"
