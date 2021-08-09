@@ -26,10 +26,8 @@
 -- Query Challenge #3
 INSERT INTO customers (first_name, last_name, address1, city, state, zip, country, phone, email, twitter) 
 VALUES
- 	('Kevin','Mora','1830 Lambda Squared','Salt Lake City','UT','63457-9530','US','3854569820','sci.kevinmora@gmail.com','@FermionicSoup'),
+	('Kevin','Mora','1830 Lambda Squared','Salt Lake City','UT','63457-9530','US','3854569820','sci.kevinmora@gmail.com','@FermionicSoup'),
 	('Peter','Pogba','420 Man Sky','Shaw','TX','75405-6470','US','4537891203','pogbaServices@gmail.com','@sdoihg'),
-    ('Mabel','Loara','271 Pi Equal Three','Ray Center','PA','35827-4418','US','5643829330','mabelForeverLove@gmail.com','@UniCornZombie'),
-    ('Steve','Works','666 Cupertino','Lucern','UT','51340-5458','US','2837480392','mrAppleHimself@gmail.com','@applhe1'),
-    ('Ibahm','Watson','69 Computer Vale','Elba','PE','64371-7067','CA','8593245118','ibmWatson@gmail.com','@fastAsCivic');
- 
- 
+    	('Mabel','Loara','271 Pi Equal Three','Ray Center','PA','35827-4418','US','5643829330','mabelForeverLove@gmail.com','@UniCornZombie'),
+    	('Steve','Works','666 Cupertino','Lucern','UT','51340-5458','US','2837480392','mrAppleHimself@gmail.com','@applhe1'),
+    	('Ibahm','Watson','69 Computer Vale','Elba','PE','64371-7067','CA','8593245118','ibmWatson@gmail.com','@fastAsCivic');
