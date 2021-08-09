@@ -20,8 +20,8 @@
 -- corporate desktop software, dynamic web development, automation software, etc.
 
 -- Query Challenge #2
-  INSERT INTO products (artist, title, released, price, media, stock) 
-  VALUES ('Nirvana','Nevermind',1991,25.69,'CD',5);
+INSERT INTO products (artist, title, released, price, media, stock) 
+VALUES ('Nirvana','Nevermind',1991,25.69,'CD',5);
 
 -- Query Challenge #3
 INSERT INTO customers (first_name, last_name, address1, city, state, zip, country, phone, email, twitter) 
