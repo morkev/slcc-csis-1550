@@ -1,4 +1,4 @@
-# SLCC-CSIS-1550
+# SLCC CSIS 1550
 
 Databases are ubiquitous – i.e. they are everywhere. There are databases in your smart phone. There are databases behind every social media platform (Facebook, Twitter, Snapchat, etc.). There are databases in nearly every modern computer game. There are databases used in nearly every business that exists today. And the list goes on and on where you will find databases.
 
