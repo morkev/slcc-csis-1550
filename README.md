@@ -621,7 +621,7 @@ SELECT * FROM total_product_sales;
 
 Views are very commonly used in production systems to simplify data access by hiding the complexity of queries and providing an additional level of security. SQL programmers can develop the complex queries needed to provide important data (like our total sales example above) and then accessing that data is simplified by providing access to the view to less experienced staff so they can get the data without needing to know the complex details underneath.
 
-## STORED PROCEDURES
+## Stored Procedures
   
 They are reusable segments of SQL programming code that we can write, test and then store it in the database. Once stored, those procedures can be executed (called) from queries and other programs and systems. Stored procedures can also be parameterized, which means not only can we run the procedure but we can pass values to the procedure which makes the procedure more flexible. For example, let's say we have a stored procedure that returns the total product sales amount for a given month. When we call the stored procedure we can pass it the month we are interested in and it will provide the sales for that month based on our parameter.
 
@@ -681,7 +681,7 @@ Parameter types can be either IN, OUT or INOUT:
 IN month_number int
 ```
 
-### PROCEDURE Creation
+### How to create a procedure?
 ```sql
 CREATE PROCEDURE 'month_stats'
 (
