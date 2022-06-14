@@ -264,7 +264,7 @@ CREATE TABLE vendors
 	PRIMARY KEY (`vendor_id`)
 );
 ```
-### Details about CREATE:
+### About CREATE
 - Requires an indicator what database element to create, in this case a new TABLE, and then a table name is provided.
 - Then a set of parenthesis ( ) is required to enclose at list of the attributes (columns) to create in the new table.
 - Each line inside the parenthesis represents one attribute (column) in the new table.
@@ -293,7 +293,7 @@ ALTER TABLE employees MODIFY COLUMN city varchar(100);
 -- So in this example this ALTER statement changes the data type of the city attribute to varchar(100).
 ```
 
-### Details about ALTER:
+### About ALTER
 - ALTER TABLE <table_name> indicates that we are going to change the structure of a table, specified by <table_name>.
 - There are many <action>'s that you can use to modify table details.
 - For ALTER operations involving columns, the <column> name is used.
@@ -313,7 +313,7 @@ DROP DATABASE record_store;
 -- DROPs the entire record_store database.
 ```
 
-### Details about DROP:
+### About DROP
 - The DROP command means delete, which is a destructive command. 
 - Caution should be taken when using DROP, particularly in production systems.
 - <type> indicates what kind of DROP are you using: INDEX, TABLE, DATABASE, etc.
